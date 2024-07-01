@@ -1,5 +1,13 @@
-import { colors } from '@tuiuiu-ui/tokens'
+import { ButtonHTMLAttributes, ReactNode } from 'react'
 
-export function App() {
-  return <h1 style={{ color: colors.tui700 }}>Hello World</h1>
+type ButtonProps = {
+  children: ReactNode
+} & ButtonHTMLAttributes<HTMLButtonElement>
+
+export function Button({ children, ...props }: ButtonProps) {
+  return (
+    <button {...props} style={{ fontFamily: 'inter' }}>
+      {children}
+    </button>
+  )
 }
