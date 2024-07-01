@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "polished": "^4.3.1",
@@ -23,6 +24,7 @@
     "@storybook/blocks": "^8.1.11",
     "@storybook/react": "^8.1.11",
     "@storybook/react-vite": "^8.1.11",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.1.11",
     "@storybook/theming": "^8.1.11",
     "@tuiuiu-ui/eslint-config": "*",

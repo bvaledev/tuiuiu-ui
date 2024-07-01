@@ -5,6 +5,7 @@ import theme from "./theme";
 import '@tuiuiu-ui/react/dist/index.css'
 
 const preview: Preview = {
+  tags: ['autodocs'],
   parameters: {
     docs:{
       theme,
