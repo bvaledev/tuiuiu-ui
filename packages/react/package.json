@@ -6,13 +6,15 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@tuiuiu-ui/eslint-config": "*",
     "@tuiuiu-ui/ts-config": "*",
     "@tuiuiu-ui/tokens": "*",
     "tsup": "^8.1.0",

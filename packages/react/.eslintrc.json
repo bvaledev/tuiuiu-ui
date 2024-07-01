@@ -1,0 +1,3 @@
+{
+  "extends": "@tuiuiu-ui/eslint-config/react"
+}
