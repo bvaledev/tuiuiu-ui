@@ -1,7 +1,8 @@
 import type { Preview } from "@storybook/react";
-import { themes } from '@storybook/theming';
 import { colors } from '@tuiuiu-ui/tokens';
 import theme from "./theme";
+
+import '@tuiuiu-ui/react/dist/index.css'
 
 const preview: Preview = {
   parameters: {
@@ -13,11 +14,11 @@ const preview: Preview = {
       values: [
         {
           name: 'dark',
-          value: colors.gray900,
+          value: colors.gray[900],
         },
         {
           name: 'light',
-          value: colors.gray50,
+          value: colors.gray[50],
         },
       ]
     },
