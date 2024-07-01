@@ -4,41 +4,28 @@ import { getContrast } from 'polished'
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, value]) => {
     if (typeof value === 'string') {
-      return (
-        <div key={`${key}`} style={{ backgroundColor: value, padding: '1rem' }}>
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              fontFamily: 'monospace',
-              color: getContrast(value, '#FFF') < 3.5 ? '#000' : '#FFF',
-            }}
-          >
-            <strong>{key}</strong>
-            <span>{value}</span>
-          </div>
-        </div>
-      )
+      return <Color key={key} label={key} color={value} />
     }
     return Object.entries(value).map(([key2, value2]) => {
       return (
-        <div
-          key={`${key}${key2}${value2}`}
-          style={{ backgroundColor: value2, padding: '1rem' }}
-        >
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              fontFamily: 'monospace',
-              color: getContrast(value2, '#FFF') < 3.5 ? '#000' : '#FFF',
-            }}
-          >
-            <strong>{key2}</strong>
-            <span>{value2}</span>
-          </div>
-        </div>
+        <Color key={`${key}-${key2}`} label={`${key}-${key2}`} color={value2} />
       )
     })
   })
 }
+
+const Color = ({ color, label }: { label: string; color: string }) => (
+  <div key={`${label}`} style={{ backgroundColor: color, padding: '1rem' }}>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        fontFamily: 'monospace',
+        color: getContrast(color, '#FFF') < 3.5 ? '#000' : '#FFF',
+      }}
+    >
+      <strong>{label}</strong>
+      <span>{color}</span>
+    </div>
+  </div>
+)
