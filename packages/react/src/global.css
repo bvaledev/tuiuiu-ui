@@ -5,3 +5,9 @@
 * {
   @apply antialiased;
 }
+
+@layer utilities {
+  .all-unset {
+    all: unset;
+  }
+}

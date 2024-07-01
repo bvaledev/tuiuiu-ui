@@ -1,11 +1,9 @@
-import { colors, fontSizes, fonts, space, radii } from '@tuiuiu-ui/tokens'
+import { colors, fontSizes, fonts, lineHeights, radii } from '@tuiuiu-ui/tokens'
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
-    fontSize: {
-      fontSizes,
-    },
+    fontSize: fontSizes,
     fontFamily: {
       display: fonts.default,
       body: fonts.default,
@@ -14,9 +12,7 @@ module.exports = {
     borderRadius: radii,
     extend: {
       colors,
-      spacing: {
-        ...space,
-      },
+      lineHeight: lineHeights,
     },
   },
   plugins: [],
