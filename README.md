@@ -1,5 +1,7 @@
 # Tuiuiu-UI
 
+https://bvaledev.github.io/tuiuiu-ui
+
 ## Components
 
 - [x] Avatar
@@ -26,3 +28,19 @@ Must be one of the following:
 - **refactor**: A code change that neither fixes a bug nor adds a feature
 - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - **test**: Adding missing tests or correcting existing tests
+
+
+
+
+
+
+npm login
+
+organiza o versão
+npm run changeset
+
+bumb 
+npm run version-packages
+
+publica npm
+npm run release
