@@ -5,7 +5,7 @@ const meta = {
   title: 'Components/Avatar',
   component: Avatar,
   argTypes: {
-    fallbackNode: {
+    fallbackText: {
       control: 'object',
     },
     size: {
@@ -14,7 +14,7 @@ const meta = {
     },
   },
   args: {
-    fallbackNode: <>BV</>,
+    fallbackText: <>BV</>,
     size: 'md',
     src: 'https://github.com/bvaledev.png',
     alt: 'BV',

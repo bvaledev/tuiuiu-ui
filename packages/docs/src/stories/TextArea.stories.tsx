@@ -18,8 +18,6 @@ const meta = {
 
 export default meta
 
-type Story = StoryObj<typeof meta>
-
-export const PrimaryStory: Story = {
+export const Default: StoryObj<typeof meta> = {
   args: {},
 }

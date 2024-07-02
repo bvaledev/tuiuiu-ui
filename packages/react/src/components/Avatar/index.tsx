@@ -29,18 +29,18 @@ const avatar = tv({
 })
 
 export type AvatarProps = {
-  fallbackNode?: React.ReactNode
+  fallbackText?: React.ReactNode
 } & React.ComponentProps<typeof RAvatar.Image> &
   VariantProps<typeof avatar>
 
-function Avatar({ className, size, fallbackNode, ...props }: AvatarProps) {
+function Avatar({ className, size, fallbackText, ...props }: AvatarProps) {
   const { root, image, fallback } = avatar({ size })
   return (
     <RAvatar.Root className={cn(root())}>
       <RAvatar.Image {...props} className={cn(image(), className)} />
-      {fallbackNode && (
+      {fallbackText && (
         <RAvatar.Fallback className={cn(fallback())} delayMs={600}>
-          {fallbackNode}
+          {fallbackText}
         </RAvatar.Fallback>
       )}
     </RAvatar.Root>
