@@ -1,0 +1,4 @@
+import{j as t}from"./index-BKNTQWGh.js";import{useMDXComponents as r}from"./index-DjKt9u9V.js";import{M as s}from"./chunk-HLWAVYOI-BgtDAOSI.js";import{T as m}from"./TokensGrid-DkUEYK53.js";import{s as i}from"./index-CnkdpcS0.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-C2jgcCTd.js";import"./iframe-D5ti1YKB.js";import"../sb-preview/runtime.js";import"./react-18-B6cRmnj9.js";import"./index-DXimoRZY.js";import"./index-BPhVFo-B.js";import"./index-DrFu-skq.js";function n(o){const e={h1:"h1",p:"p",...r(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(s,{title:"Tokens/Spaces"}),`
+`,t.jsx(e.h1,{id:"spaces",children:"Spaces"}),`
+`,t.jsx(e.p,{children:"Design System do UNIVAG."}),`
+`,t.jsx(m,{tokens:i,hasRemValue:!0})]})}function S(o={}){const{wrapper:e}={...r(),...o.components};return e?t.jsx(e,{...o,children:t.jsx(n,{...o})}):n(o)}export{S as default};

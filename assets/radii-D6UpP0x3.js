@@ -1,0 +1,4 @@
+import{j as t}from"./index-BKNTQWGh.js";import{useMDXComponents as n}from"./index-DjKt9u9V.js";import{M as e}from"./chunk-HLWAVYOI-BgtDAOSI.js";import{T as m}from"./TokensGrid-DkUEYK53.js";import{r as s}from"./index-CnkdpcS0.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-C2jgcCTd.js";import"./iframe-D5ti1YKB.js";import"../sb-preview/runtime.js";import"./react-18-B6cRmnj9.js";import"./index-DXimoRZY.js";import"./index-BPhVFo-B.js";import"./index-DrFu-skq.js";function i(o){const r={h1:"h1",p:"p",...n(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(e,{title:"Tokens/Radii"}),`
+`,t.jsx(r.h1,{id:"radii",children:"Radii"}),`
+`,t.jsx(r.p,{children:"Design System do UNIVAG."}),`
+`,t.jsx(m,{tokens:s})]})}function R(o={}){const{wrapper:r}={...n(),...o.components};return r?t.jsx(r,{...o,children:t.jsx(i,{...o})}):i(o)}export{R as default};

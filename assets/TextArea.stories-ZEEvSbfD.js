@@ -1,0 +1,3 @@
+import{b as t}from"./index-7Ltw9n-v.js";import"./index-BKNTQWGh.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-C2jgcCTd.js";const l={title:"Form/Text Area",component:t,argTypes:{size:{control:"inline-radio",options:["sm","md"]}},args:{disabled:!1,placeholder:"Placeholder"}},e={args:{}};var r,o,a;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  args: {}
+}`,...(a=(o=e.parameters)==null?void 0:o.docs)==null?void 0:a.source}}};const n=["Default"];export{e as Default,n as __namedExportsOrder,l as default};

@@ -1,0 +1,3 @@
+import{j as t}from"./index-BKNTQWGh.js";import{useMDXComponents as r}from"./index-DjKt9u9V.js";import{M as m}from"./chunk-HLWAVYOI-BgtDAOSI.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-C2jgcCTd.js";import"./iframe-D5ti1YKB.js";import"../sb-preview/runtime.js";import"./react-18-B6cRmnj9.js";import"./index-DXimoRZY.js";import"./index-BPhVFo-B.js";import"./index-DrFu-skq.js";function e(o){const n={h1:"h1",p:"p",...r(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(m,{title:"Home"}),`
+`,t.jsx(n.h1,{id:"home",children:"Home"}),`
+`,t.jsx(n.p,{children:"Design System do UNIVAG."})]})}function M(o={}){const{wrapper:n}={...r(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(e,{...o})}):e(o)}export{M as default};
